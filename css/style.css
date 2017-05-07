@@ -1,11 +1,3 @@
-/*!
- * Project_Name: Themezy Lawyers Template
- * Author: Themezy
- * Email: info@themezy.com
- * URL: http://themezy.com
- */
-
-
 /* line 45, sass/libs/_normalize.scss */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
@@ -34,7 +26,7 @@ audio:not([controls]) {
 /* line 97, sass/libs/_normalize.scss */
 
 html {
-	background: #fff;
+	background: #FF9933;
 	color: #000;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -321,14 +313,14 @@ body {
 	font-weight: 300;
 	line-height: 1.5;
 	color: #888;
-	background-color: #161719;
+	background-color: #FAFAFA;
 }
 
 /* line 17, sass/libs/_global.scss */
 
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 0;
-	color: #FFFFFF;
+	color: #FF9933;
 	font-family: "Novecento Sans", "Open Sans", sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -382,7 +374,7 @@ form input:not([type="submit"]), form select, form textarea {
 /* line 52, sass/libs/_global.scss */
 
 form input:not([type="submit"]):hover, form input:not([type="submit"]):active, form input:not([type="submit"]):focus, form select:hover, form select:active, form select:focus, form textarea:hover, form textarea:active, form textarea:focus {
-	border-color: #ac8074;
+	border-color: #FF9933;
 }
 
 /* line 57, sass/libs/_global.scss */
@@ -390,8 +382,8 @@ form input:not([type="submit"]):hover, form input:not([type="submit"]):active, f
 form input[type="submit"] {
 	padding: 10px 20px;
 	background: transparent;
-	border: 2px solid #ac8074;
-	color: #ac8074;
+	border: 2px solid #FF9933;
+	color: #FF9933;
 	font-family: "Novecento Sans", "Open Sans", sans-serif;
 	text-transform: uppercase;
 	font-size: 14px;
@@ -404,7 +396,7 @@ form input[type="submit"] {
 /* line 68, sass/libs/_global.scss */
 
 form input[type="submit"]:hover, form input[type="submit"]:active, form input[type="submit"]:focus {
-	background-color: #ac8074;
+	background-color: #FF9933;
 	color: #111113;
 }
 
@@ -413,7 +405,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 .more-link {
 	padding: 20px 30px 20px 0;
 	background: url(images/arrow.png) no-repeat right center;
-	color: #ac8074;
+	color: #FF9933;
 	font-size: 14px;
 	font-size: 0.875em;
 }
@@ -429,8 +421,8 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 .button {
 	display: inline-block;
 	padding: 15px 35px;
-	border: 3px solid white;
-	color: white;
+	border: 3px solid #001d2d;
+	color: #001d2d;
 	text-transform: uppercase;
 	font-size: 12px;
 	font-size: 0.75em;
@@ -443,15 +435,15 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 
 .button.invert {
 	background-color: white;
-	color: #ac8074;
+	color: #FF9933;
 	font-weight: 700;
 }
 
 /* line 22, sass/libs/_components.scss */
 
 .button:hover {
-	border-color: #ac8074;
-	color: #ac8074;
+	border-color: #FF9933;
+	color: #FF9933;
 }
 
 /* fullwidth-block */
@@ -515,7 +507,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* line 60, sass/libs/_components.scss */
 
 .latest-news .entry-title a {
-	color: #ac8074;
+	color: #FF9933;
 	-webkit-transition: .3s ease;
 	transition: .3s ease;
 }
@@ -567,7 +559,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 .feature header .feature-title {
 	font-size: 24px;
 	font-size: 1.5em;
-	color: white;
+	color: #001d2d;
 	margin-bottom: 0;
 	line-height: 1;
 }
@@ -577,14 +569,14 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 .feature header .feature-subtitle {
 	font-size: 12px;
 	font-size: 0.75em;
-	color: #888;
+	color: #FAFAFA;
 	text-transform: uppercase;
 }
 
 /* line 101, sass/libs/_components.scss */
 
 .feature-grid .feature {
-	background: #111113;
+	background: #001d2d;
 	margin-bottom: 0;
 	padding: 50px 30px !important;
 	text-align: center;
@@ -622,7 +614,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 
 .feature.boxed {
 	padding: 30px;
-	background-color: #111113;
+	background-color: #001d2d;
 	margin-bottom: 30px;
 }
 
@@ -787,8 +779,8 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* line 216, sass/libs/_components.scss */
 
 .quote-slider .flex-control-paging li a.flex-active {
-	background: #ac8074;
-	box-shadow: 0 0 0 2px #ac8074;
+	background: #FF9933;
+	box-shadow: 0 0 0 2px #FF9933;
 }
 
 /* Timeline */
@@ -864,7 +856,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* line 289, sass/libs/_components.scss */
 
 .timeline .milestone .year {
-	color: #ac8074;
+	color: #FF9933;
 	font-family: "Novecento Sans", "Open Sans", sans-serif;
 	font-size: 24px;
 	font-size: 1.5em;
@@ -894,7 +886,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* line 311, sass/libs/_components.scss */
 
 .cta a {
-	color: #ac8074;
+	color: #FF9933;
 }
 
 /* Counter */
@@ -926,7 +918,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 .counter .num {
 	font-size: 200px;
 	font-size: 12.5em;
-	color: #ac8074;
+	color: #FF9933;
 	font-weight: 600;
 	line-height: .8;
 	margin: 0 30px 0 0;
@@ -960,7 +952,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* line 343, sass/libs/_components.scss */
 
 .counter .copy span:first-child {
-	color: #ac8074;
+	color: #FF9933;
 }
 
 /* Team */
@@ -1010,7 +1002,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 .team .team-name {
 	font-size: 24px;
 	font-size: 1.5em;
-	color: white;
+	color: #001d2d;
 	text-transform: uppercase;
 	margin-bottom: 0;
 	font-family: "Novecento Sans", "Open Sans", sans-serif;
@@ -1022,7 +1014,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 	font-size: 14px;
 	font-size: 0.875em;
 	text-transform: uppercase;
-	color: #ac8074;
+	color: #FF9933;
 	font-family: "Novecento Sans", "Open Sans", sans-serif;
 	font-weight: 600;
 	margin-bottom: 20px;
@@ -1045,6 +1037,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 
 .contact-form #name {
 	background-image: url("images/icon-user.png");
+	color: #FF9933;
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
 	/* line 398, sass/libs/_components.scss */
@@ -1058,6 +1051,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 
 .contact-form #email {
 	background-image: url("images/icon-envelope-alt.png");
+	color: #FF9933;
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
 	/* line 399, sass/libs/_components.scss */
@@ -1071,6 +1065,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 
 .contact-form #website {
 	background-image: url("images/icon-globe.png");
+	color: #FF9933;
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
 	/* line 400, sass/libs/_components.scss */
@@ -1086,6 +1081,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 	background-image: url("images/icon-pencil.png");
 	background-position: 10px 10px;
 	min-height: 200px;
+	color: #FF9933;
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
 	/* line 401, sass/libs/_components.scss */
@@ -2410,7 +2406,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* line 5, sass/layout/_header.scss */
 
 .site-header {
-	background-color: #111113;
+	background-color: #001d2d;
 	color: white;
 	padding: 30px 0;
 	margin-bottom: 30px;
@@ -2457,7 +2453,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 #branding .site-description {
 	font-size: 12px;
 	font-size: 0.75em;
-	color: #888;
+	color: #FAFAFA;
 	font-family: Arial, sans-serif;
 }
 
@@ -2527,8 +2523,8 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* line 75, sass/layout/_header.scss */
 
 .mobile-navigation .menu .current-menu-item a, .mobile-navigation .menu .menu-item:hover a {
-	color: #ac8074;
-	border-left: 4px solid #ac8074;
+	color: #FF9933;
+	border-left: 4px solid #FF9933;
 }
 
 /* line 81, sass/layout/_header.scss */
@@ -2582,7 +2578,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* line 109, sass/layout/_header.scss */
 
 .main-navigation .menu-item.current-menu-item a, .main-navigation .menu-item:hover a {
-	border-bottom: 3px solid #ac8074;
+	border-bottom: 3px solid #FF9933;
 }
 
 /* Sidebar Styles */
@@ -2617,7 +2613,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 	max-width: 100%;
 }
 
-/* line 22, sass/layout/_content.scss */
+/* line 22, safss/layout/_content.scss */
 
 .content figure.block img {
 	width: 100%;
@@ -2686,7 +2682,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* line 5, sass/layout/_footer.scss */
 
 .site-footer {
-	background-color: #111113;
+	background-color: #001d2d;
 	padding: 50px 0;
 	text-align: center;
 }
@@ -2749,7 +2745,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* line 42, sass/layout/_footer.scss */
 
 .subscribe-form form label span:last-child {
-	color: #ac8074;
+	color: #FF9933;
 }
 
 /* line 46, sass/layout/_footer.scss */
@@ -2777,13 +2773,13 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 	padding: 10px 100px 10px 20px;
 	width: 100%;
 	height: 70px;
-	color: #888;
+	color: #001d2d;
 }
 
 /* line 61, sass/layout/_footer.scss */
 
 .subscribe-form form input:hover, .subscribe-form form input:hover+button, .subscribe-form form input:focus, .subscribe-form form input:focus+button {
-	border-color: #ac8074;
+	border-color: #FF9933;
 }
 
 /* line 66, sass/layout/_footer.scss */
@@ -2802,7 +2798,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* line 76, sass/layout/_footer.scss */
 
 .subscribe-form form button:focus {
-	border-color: #ac8074;
+	border-color: #FF9933;
 }
 
 /* line 83, sass/layout/_footer.scss */
@@ -2814,7 +2810,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* line 85, sass/layout/_footer.scss */
 
 .social-links a {
-	color: #ac8074;
+	color: #FF9933;
 	font-size: 20px;
 	font-size: 1.25em;
 	display: inline-block;
@@ -2834,7 +2830,11 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 .copy {
 	font-size: 14px;
 	font-size: 0.875em;
-	color: #494949;
+	color: #FAFAFA;
+}
+
+h2 {
+	color: #FAFAFA;
 }
 
 /*# sourceMappingURL=style.css.map */
