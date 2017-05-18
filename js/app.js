@@ -80,7 +80,7 @@
 					}  
 				},
 				marker:{
-					address: "40 Sibley St, Detroit",
+					address: "Sinopskaya nab., 22, Sankt-Peterburg, Russia, 191167",
 					// options: {
 					// 	icon: new google.maps.MarkerImage(
 					// 		"images/map-marker.png",
