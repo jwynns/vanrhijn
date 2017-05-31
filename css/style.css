@@ -1099,4 +1099,6 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* line 98, sass/layout/_footer.scss */
 .copy { font-size: 14px; font-size: 0.875em; color: #494949; }
 
-/*# sourceMappingURL=style.css.map */
+#lang {
+	text-align: right;
+}

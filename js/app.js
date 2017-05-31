@@ -99,3 +99,8 @@
 	});
 
 })(jQuery, document, window);
+
+
+$(function(){
+    $('.selectpicker').selectpicker();
+});
